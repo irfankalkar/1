@@ -948,9 +948,11 @@ fieldset {
 	
 	.portfolio_item {
 		width: 100%;
-		float: none;
+	/*	float: none;	*/
 		display:flex;
 		flex-direction:column;
+		justify-content: center;
+		align-items:center
 	}
 	
     h1 {
