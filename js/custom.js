@@ -1,7 +1,7 @@
 
-window.addEventListener('load', function () {
+  window.addEventListener('load', function () {
     if (window.innerWidth < 500) {
-      document.querySelectorAll('.portfolio_item').forEach(function (element) {
+      document.querySelectorAll('.img-responsive').forEach(function (element) {
         element.style.flexDirection = 'column';
       });
     }
