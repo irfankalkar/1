@@ -1,6 +1,4 @@
 
-/*  
-
 window.addEventListener('load', function () {
     if (window.innerWidth < 500) {
       document.querySelectorAll('.portfolio_item').forEach(function (element) {
@@ -8,8 +6,7 @@ window.addEventListener('load', function () {
       });
     }
   });
-  
-*/
+ 
 
 /******************************************************************************************************/
 /*******************************************************************************************************/
