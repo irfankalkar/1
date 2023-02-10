@@ -934,18 +934,23 @@ fieldset {
     }
 }
 
+/* YATAY */
 @media only screen and (min-width: 500px) {
   .portfolio_item {
-    width: 50%;
+    width: 100%;
     float: left;
   }
 }
 
+
+/* DİKEY */
 @media only screen and (max-width: 500px) {
 	
 	.portfolio_item {
 		width: 100%;
 		float: none;
+		display:flex;
+		flex-direction:column;
 	}
 	
     h1 {
@@ -984,8 +989,6 @@ fieldset {
         font-size: 10px;
     }
 }
-
-/*
 
 /* Responsive media queries
 ==================================================
