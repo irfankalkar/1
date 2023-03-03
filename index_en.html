@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>İrfan Kalkar</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet">
+    <!-- main style -->
+    <link href="css/style.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/11bdfb9566.js" crossorigin="anonymous"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+
+            <div class="preloader" aria-busy="true" aria-label="Loading, please wait." role="progressbar">
+            </div>
+
+        </div>
+    </div>
+    <!-- ./Preloader -->
+    
+    <!-- header -->
+    <header class="navbar-fixed-top">
+        <nav class="navbar_kutusu">
+			
+			<input type="checkbox" id="check">
+			<label for="check" class="checkbtn">
+				<i class="fas fa-bars"></i>
+			</label>
+			
+            <ul>
+                <li><a href="#about">COVER LETTER</a></li>
+                <li><a href="#experience">SKILLS</a></li>
+                <li><a href="#projects">EXPERIENCES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+			
+			<div class="language">
+				<!-- <div class="language_ust_alt_cizgi"> -->
+					<a class="language_a_class" href="index.html"><img class="language_flag" src="img/dil/turkiye_bayragi.svg" alt="American Flag">
+						TÜRKÇE
+					</a>
+				<!-- </div> -->
+			</div>
+			
+        </nav>
+    </header>
+    <!-- ./header -->
+    
+    <!-- home -->
+    <div class="section" id="home" data-stellar-background-ratio="0.5">
+        <div class="container">
+            <div class="disply-table">
+                <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
+                    <h4>İrfan Kalkar</h4>
+                    <h1 class="meslek_basligi">Job Development</h1> </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./home -->
+    
+    <!-- about -->
+    <div class="section" id="about">
+        <div class="container">
+            <div class="col-md-6" data-aos="fade-up">
+                <h4>01</h4>
+                <h1 class="size-50">Cover Letter</h1>
+                <div class="h-50"></div>
+                
+                <p>While my cover letter touches on my experiences in the Job Development process that I have been in recently, it also touches on other areas where I have gained experience, such as Graphic Design, Foreign Language and Software, which laid the groundwork for this process.</p>
+                
+                <p>First of all, in the period I suspended my High School education and with the beginning of my interest in Graphic Design, I laid the foundation of my career by turning to Graphic Design applications. In this context, by working in Photography Studio and Printing House, besides the generally known Graphic Design applications, I have developed myself in time to meet the needs of the business environment in different Graphic Design applications according to the different needs that occur in other jobs.</p> 
+                
+                <p>Then despite I have studied high school in software thinking that I could integrate it with my Graphic Design experiences, as my interest in the field of software temporarily lost due to disappointment due to the unfavorable conditions of the time and my interest in Foreign Language started, I graduated on the field "Applied English and Translation" department with a grade point average of 3,01 out of 4 from university.</p>
+				
+                <p style="font-size:16px;"> <strong>You can listen to the rest of my cover letter via buttons below.</strong> </p>
+				<p class="iki_dakika" style="font-size:14px;"> <strong>Duration:</strong> 2 Minutes 23 Seconds </p>
+                
+                <div class="oynat_duraklat_sonlandir_sure">
+                    <audio id="audio">
+                        <source src="media\Paragraf_4-7_Arasi_en.mp3" type="audio/mpeg">
+                    </audio>
+                    
+                    <button id="oynat_duraklat_BTN" class="oynat_duraklat_BTN_class" onclick="oynatDuraklat()">Play ►</button>
+                    &nbsp;
+                    &nbsp;
+					<button id="sonlandir_BTN" class="sonlandir_BTN_class"  onclick="sonlandir()">Stop<p class="stop_isareti"> ■</p>
+					</button>
+					
+                </div>
+                
+                <div class="h-50"></div> <img src="img/Signature.svg" width="230" alt="" />
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-6 about-img-div">
+                <div class="about-border" data-aos="fade-up" data-aos-delay=".5"></div>
+                <img src="img/about-img.jpg" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+            </div>
+        </div>
+    </div>
+    <!-- ./about -->
+    
+    <!-- experience  -->
+    <div class="section" id="experience">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>02</h4>
+                <h1 class="size-50">Skills</h1>
+                <div class="h-50"></div>
+            </div>
+            <div class="col-md-12">
+                <ul class="timeline">
+                    <li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Spreadsheet,&ensp;Software,&ensp;Automation</p>
+                            <h3 class="program_isimleri_1"><strong>M</strong>icrosoft Excel&nbsp;&nbsp;•&ensp;<strong>G</strong>oogle Spreadsheet&nbsp;&nbsp;•&ensp;<strong>M</strong>icrosoft Power Automate</h3>
+                            <h3 class="program_isimleri_1-1"><strong>M</strong>icrosoft Excel<br><strong>G</strong>oogle Spreadsheet<br><strong>M</strong>icrosoft Power Automate</h3>
+                            <h4>Formüller,&ensp;Visual Basic and Javascript based Macros, Automation supported Workflows</h4>
+                            <p>
+								In order to manage the work more easily and to facilitate the Business Processes, there were applications that I developed using the <strong>Visual Basic software language over Excel</strong> during the period when I was a <strong>Hotel Manager.</strong>
+                                
+								<br><br>Especially because I liked the working conditions, while I was working <strong>in the Quality Control department at the Call Center,</strong> I created <strong>macros by Javascript on the Google Spreadsheet</strong>, where we process the data together with the employees, in order to facilitate the work under my own responsibility. And then <strong>I supported the Workflows with Automation</strong> in some other works, then after my these works were noticed, <strong>I was called to the Finance Department for the job.</strong>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".2">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Photo Editing,&ensp;Graphic Design&ensp;ve&ensp;Presentation</p>
+                            <h3 class="program_isimleri_2"><strong>Adobe (P</strong>hotoshop, <strong>L</strong>ightroom, <strong>I</strong>llustrator<strong>)</strong>&ensp;•&ensp;<strong>M</strong>icrosoft PowerPoint</h3>
+							<h3 class="program_isimleri_2-1"><strong>Adobe</strong></h3>
+							<h5 class="program_isimleri_2-2"><strong>(P</strong>hotoshop, <strong>L</strong>ightroom, <strong>I</strong>llustrator<strong>)</strong></h5>
+							<h3 class="program_isimleri_2-3"><strong>M</strong>icrosoft PowerPoint</h3>
+                            <h4>Photo Editing, Graphic Design works and Business presentations on Intermediate and Advanced level.</h4>
+                            <p>
+                                Except for Microsoft PowerPoint, I used these applications in Photography and Printing fields where I worked at different times, as well as for advertisement designs in two different hotels where I worked as a Receptionist and Hotel Manager.
+                                
+                                <br><br> I used <strong>Microsoft PowerPoint</strong> on rare occasions when I needed to create business plans and present them professionally.
+                            </p>
+                        </div>
+                    </li>
+					<li class="timeline-event" data-aos="fade-up">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Web Design&ensp;(Beginner level)</p>
+                            <h3 class="program_isimleri_3"><strong>H</strong>TML&nbsp;&nbsp;•&ensp;<strong>C</strong>SS&nbsp;&nbsp;•&ensp;<strong><span class="program_isimleri_3_harf_J">J</span></strong>AVASCRIPT</h3>
+                            <h3 class="program_isimleri_3-1"><strong>H</strong>TML&nbsp;&nbsp;•&ensp;<strong>C</strong>SS&nbsp;&nbsp;•&ensp;<strong><span class="program_isimleri_3_harf_J">J</span></strong>AVASCRIPT</h3>
+
+                            <h4>Editing interface,&ensp;Updating content,&ensp;Functional changes,&ensp;Making it mobile friendly,&ensp;Adding a second language</h4>
+                            <p>
+								With the thought of preparing a website of my own, I recently started to deal with HTML & CSS languages and created this Website that you are currently viewing.
+								
+								<br><br>I first updated this web interface, which did not support mobile compatibility and had problems with some of its functions, but I got it from the internet because I liked it anyway, with my own content, and then made some visual and functional changes according to my wishes. Over time, I fixed the problems that the web interface already had and made it compatible with the mobile view on the CSS side and the touch screen on the JAVASCRIPT side in terms of mouse effects.
+                                
+                                <br><br>Although I clearly state that I am at the Beginner level in this field because I am not at the level to create a complete interface with CSS just from scratch, I have achieved very successful results in functional features such as making visual changes on ready-made examples, updating the content, making it compatible with different devices and providing bilingual support. I am sure that as I do different studies, I will make up for my lack of CSS in time.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="timeline-event" data-aos="fade-up" data-aos-delay=".4">
+                        <label class="timeline-event-icon"></label>
+                        <div class="timeline-event-copy">
+                            <p class="timeline-event-thumbnail">Extra Softwares</p>
+                            <h3 class="program_isimleri_4"><strong>Adobe (P</strong>remiere, <strong>A</strong>fter Effects, <strong>A</strong>udition<strong>)</strong></h3>
+							<h3 class="program_isimleri_4-1"><strong>Adobe</strong></h3>
+							<h5 class="program_isimleri_4-2"><strong>(P</strong>remiere, <strong>A</strong>fter Effects, <strong>A</strong>udition<strong>)</strong></h5>
+                            <h4>Basic Level of Rich Media Design works</h4>
+                            <p>
+                                This section covers all the extra software that I do not have an advanced command of, but that I can create works that can be considered advanced for the needs by using the rich resources of the internet, or that I have already mastered and only need to use when necessary.
+                                
+                                <br><br>
+                                For example, I combined and edited my audio recording, which you listened to in my cover letter, piece by piece, using the <strong>"Adobe Audition"</strong> application. I used <strong>"Adobe Premiere"</strong> and <strong>"Adobe After Effects"</strong> applications to create Video Advertising works by editing ready-made professional templates that I obtained from the internet to publish on various Social Platforms and Online Platforms related to the <strong>Hospitality industry</strong>, especially during my <strong>"Hotel Manager"</strong> period.
+                                
+                                <br><br>
+                                I also have a good command of many helpful 3rd party software tools that I do not need to specify here and that I use in business as needed.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ./experience -->
+    
+    <!-- projects -->
+    <div class="section" id="projects">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>03</h4>
+                <h1 class="size-50">Work <br /> Experiences</h1> 
+            </div>
+            <!-- main container -->
+            <div class="main-container portfolio-inner clearfix">
+                <!-- portfolio div -->
+                <div class="portfolio-div">
+                    <div class="portfolio">
+                        <!-- portfolio_filter -->
+                        <div class="categories-grid wow fadeInLeft">
+                            <nav class="categories">
+                                <ul class="portfolio_filter">
+                                    <li><a href="" class="active" data-filter="*">All</a></li>
+                                    <li><a href="" data-filter=".fotografcilik">Photography</a></li>
+                                    <li><a href="" data-filter=".turizm">Tourism</a></li>
+                                    <li><a href="" data-filter=".grafik">Graphic</a></li>
+                                    <li><a href="" data-filter=".yazilim">Software</a></li>
+                                    <li><a href="" data-filter=".diger">Other</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- portfolio_filter -->
+                        
+                        <!-- portfolio_container -->
+                        <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6  diger yazilim">
+                                <a id="demo08" href="#animatedModal8" class="portfolio_item"> <img src="img/portfolio/08.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info_tarih"> <span>March 2022 - November 2022</span></div>
+                                            
+                                            <div class="item_info"><span>Yakirox Call Center<br><font size="2">(Quality Control)</font></span> <em>Other / Software</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 turizm grafik yazilim">
+                                <a id="demo07" href="#animatedModal7" class="portfolio_item"> <img src="img/portfolio/07.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info_tarih"> <span>February 2020 - August 2020</span></div>
+                                            
+                                            <div class="item_info"> <span>Acar Airport Hotel<br><font size="2">(Hotel Management)</font></span> <em>Tourism / Graphic / Software</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 turizm fotografcilik grafik">
+                                <a id="demo06" href="#animatedModal6" class="portfolio_item"> <img src="img/portfolio/06.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info_tarih"> <span>August 2019 - January 2020</span></div>
+                                            
+                                            <div class="item_info"> <span>CNR Airport Hotel<br><font size="2">(Reception)</font></span> <em>Tourism / Photography / Graphic</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 diger">
+                                <a id="demo05" href="#animatedModal5" class="portfolio_item"> <img src="img/portfolio/05.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info_tarih"> <span>July 2017 - December 2017</span></div>
+                                            
+                                            <div class="item_info"> <span>Teleperformance Call Center<br><font size="2">(Customer Representation)</font></span> <em>Other</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 diger">
+                                <a id="demo04" href="#animatedModal4" class="portfolio_item"> <img src="img/portfolio/04.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info_tarih"> <span>November 2016 - March 2017</span></div>
+                                            
+                                            <div class="item_info"> <span>TEGV (Edu. Vol. Fou. of Turkey)<br><font size="2">(Volunteer Instructor)</font></span> <em>Other</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+							
+							
+							<!-- single work -->
+							<!-- FOTO EVREN BÖLÜMÜ (GEREKİRSE DİYE)
+                            <div class="col-md-4 col-sm-6 fotografcilik grafik">
+                                <a id="demo06" href="#animatedModal3" class="portfolio_item"> <img src="img/portfolio/03.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info_tarih"> <span>Eylül 2013 - Ocak 2014</span></div>
+                                            
+                                            <div class="item_info"> <span>Foto Evren<br><font size="2">(Fotoğrafçılık)</font></span> <em>Fotoğrafçılık / Grafik</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+							-->
+                            <!-- end single work -->
+							
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 grafik">
+                                <a id="demo02" href="#animatedModal2" class="portfolio_item"> <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info_tarih"> <span>July 2012 - June 2013</span></div>
+                                            
+                                            <div class="item_info"> <span>Ismet Printing Office<br><font size="2">(Graphic Design)</font></span> <em>Graphic</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                            
+                            <!-- single work -->
+                            <div class="col-md-4 col-sm-6 fotografcilik grafik">
+                                <a id="demo01" href="#animatedModal1" class="portfolio_item"> <img src="img/portfolio/01.jpg" alt="image" class="img-responsive" />
+                                    <div class="portfolio_item_hover">
+                                        <div class="portfolio-border clearfix">
+                                            <div class="item_info_tarih"> <span>January 2009 - January 2012</span></div>
+                                            
+                                            <div class="item_info"> <span>Studio Hayal<br><font size="2">(Grafik Tasarım ve Studio Photography)</font></span> <em>Photography / Graphic</em> </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- end single work -->
+                        
+                        </div>
+                        <!-- end portfolio_container -->
+                    </div>
+                    <!-- portfolio -->
+                </div>
+                <!-- end portfolio div -->
+            </div>
+            <!-- end main container -->
+        </div>
+    </div>
+    <!-- ./projects -->
+    
+    <!-- contact -->
+    <div class="section" id="contact">
+        <div class="container">
+            <div class="col-md-12">
+                <h4>04</h4>
+                <h1 class="size-50">Contact <br> Information</h1>
+                <div class="h-50"></div>
+            </div>
+			
+            <div class="col-md-4" data-aos="fade-up">
+                <h3>Residence </h3>
+                <p>Istanbul (Eurepean side) / Arnavutköy / Turkey</p>
+                <h3> Telephone</h3>
+                <p>+90 537 438 94 91</p>
+                <h3>E-mail</h3>
+                <p>ikalkar66@gmail.com</p>
+                <h3>If unreachable</h3>
+                <p>+90 535 576 48 78 - (Brother)</p>
+            </div>
+            <div class="col-md-8" data-aos="fade-up">
+                <form class="contact-bg" id="contact-form" name="contact" method="post" novalidate="novalidate">
+					<h3 class="form_bilgi_yazisi"><strong>This Form is currently unavailable.</strong></h3>
+                    <input type="text" name="name" class="form-control" placeholder="Name" />
+                    <input type="email" name="email" class="form-control" placeholder="E-mail" />
+                    <input type="text" name="phone" class="form-control" placeholder="Phone Number" />
+                    <textarea name="message" class="form-control" placeholder="Your Message" style="height:120px"></textarea>
+                    <button id="submit" type="submit" name="submit" class="btn btn-glance">Send</button>
+                    <div id="success">
+                        <p class="green textcenter"> Your message was sent successfully! I will be in touch as soon as I can. </p>
+                    </div>
+                    <div id="error">
+                        <p> Something went wrong, try refreshing and submitting the form again. </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- ./contact -->
+
+    <!--DEMO08-->
+    <div id="animatedModal8" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+				<div id="btn-close-modal" class="close-animatedModal8 close-popup-modal"> <i class="ion-close-round"></i> </div>
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Yakirox Call Center<br /> (Quality Control)</h2>
+                        <div class="h-50"></div>
+                        <p>I was one of the first employees of the newly established Quality Control Department to ensure the Quality Control of the communication between customers and Investment Advisors <strong>at YAKIROX, which provides Investment Consultancy services</strong> to the customers of international investment companies that allow users to invest and monitor their investments through the purchase and sale of a wide variety of Virtual Assets.</p>
+                        <p>In this company where only foreign customers are served, we were listening to the retrospective conversations between our Customer Representatives and Customers by following up whether there was any dialogue and discourse of our Customer Representatives outside the framework of the rules. And if there was any, then we were creating reports and sending them to the relevant places via e-mail.</p>
+                        <br />
+						<strong>
+                        <p>Because of it is a newly established department, that they do not have a holistic application covering all business processes related to Quality Control Department except for the CRM applications they already had, and that they make the business process very slowly with manual actions by using third-party applications for each relevant workpiece, was the first thing that caught my attention as someone who is interested in business development.</p>
+						<br />
+                        <p>For this reason, although I thought about the idea of running development and improvement for the relevant business processes in this department, I did not take any steps in this direction for at least 6 months, as I thought that they would fill this gap in time, since this is a corporate company. However when I realized that nothing had changed in 6 months, at least in order to speed up and facilitate the work on the computer I was working on, I reduced some manual works to a few keys with programming and automation support in my limited time from the works I was already responsible for. Then after my these works were noticed by an authorized person in IT Department, i found myself in a process in where I was called to work in the Finance Department.</p>
+						<br />
+						<p>I prefer to explain the next details face to face so that the content is not longer.</p>
+						</strong>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!--DEMO07-->
+    <div id="animatedModal7" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+		<div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+				<div id="btn-close-modal" class="close-animatedModal7 close-popup-modal"> <i class="ion-close-round"></i> </div>
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Acar Airport Hotel<br /> (Hotel Management)</h2>
+                        <div class="h-50"></div>
+                        <p>In this hotel where I worked as a manager, the responsibilities I felt on me and the work I put into action accordingly were more than the responsibilities given to me.</p>
+						<br/>
+						<p><u><strong>In this context,</strong></u></p>
+						<br/>
+                        <p><strong>Within the scope of Market Research, Content Production and Management,</strong></p>
+						<p><u>I had tasks such as</u></p>
+						
+                        <p>•&ensp;Registering the hotel to Turkish and Foreign Reservation channels by conducting market research,</p>
+						<p>•&ensp;At the stage of opening the hotel rooms for sale on these channels, if the hotel is deficient in visual data such as Photographs and Videos, in order to eliminate these deficiencies, taking photos and videos, editing them in the computer environment, adding appropriate content articles and presenting the rooms ready for sale on the channels,</p>
+						<p>•&ensp;Creating various campaigns by changing the price policies on the management panels of these channels according to the customer density...</p>
+                        
+						<br />
+						<br />
+						
+						<p><strong>Through the Visual Basic software language by Excel, I have coded various software that will facilitate Business Management and save time.</strong></p>
+						<br />
+						<p><strong>As example to these software, I have developed:</strong></p>
+						<p>•&ensp;A computer application that displays the change that occurs by providing the user with the opportunity to change the current exchange rate information on a numerical or percentage basis in order to prevent financial errors and maintain the profit balance in transactions made with the customer through different currencies,</p>
+						<p>•&ensp;Two different applications in order to keep Daily, Weekly or Monthly Income-Expense information, and to follow up and manage the long-term debt of the company,</p>
+						<br />
+						<p>•&ensp;<u>In cases where the payment will be made by the pos device, according to the selected VAT rates;</u></p>
+						<p style="font-size:13px;">&ensp;&ensp;To be independent of tools that calculate from the Internet, i have developed an application for</p>
+						<p style="font-size:13px;">&ensp;&ensp;•&ensp;Calculating the VAT included amount from the VAT excluded price and Displaying the VAT Amount,</p>
+						<p style="font-size:13px;">&ensp;&ensp;•&ensp;Calculating the VAT excluding price from the VAT included amount and Displaying the VAT Amount</p>
+						
+						<br />
+						<p>•&ensp;Also, I was coding a "Reservation Tracking and Management" application that I stopped because I had to leave my job due to military service. I was planning to include many features in it, but when I came from the military, I stopped wasting time on it after I saw that even the simplest hotels have switched to official software with monthly payments. But the software i have coded can still function at a basic level, even in its current state.</p>
+						
+						<br />
+						<br />
+						
+						<p><strong> Within the Scope of Service Development and Customer Satisfaction:</strong></p>
+						
+						<p><u>First of all, I performed the following operations in the rooms to inform the customers in the rooms:</u></p>
+						
+						<p style="font-size:13px; padding-left: 15px;">•&ensp;In order for foreign customers can find relevant TV channel content according to their language and interests, creating guides showing how to switch between satellite and channel categories with the remote, and guides showing Wi-Fi information,</p>
+						
+                        <p style="font-size:13px; padding-left: 15px;">•&ensp;Room User Manuals, which include information on general room rules and additional information to inform the customer, as well as guides on how to use various electronic devices in the rooms without damaging them,</p>
+						
+						<br />
+						
+						<p><u>Then I thought that the customers in the rooms should also be able to inform us so that we can provide better service, and in addition, I brought the following innovation:</u></p>
+						
+						<p style="font-size:13px; padding-left: 15px;">•&ensp;In addition, by presenting the idea to the authorized persons to place <strong>"Request, Suggestion and Complaint Boxes"</strong> in to the rooms with designs that will not disrupt the room own design, I ensured to halve the negative reviews of the customers which are likely to be written on online platforms. And then I ensured that the relevant problems for the rooms mentioned by customers in the boxes would not reoccur permanently anymore by interfering early into the relevant room before next customer. Thanks to the suggestions left in these boxes by some customers, I have created a way to have new ideas that will increase the service quality, and in this direction, I have enabled us to know in which aspects we need to improve the service quality in the rooms and general of hotel.</p>
+						<br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!--DEMO06-->
+    <div id="animatedModal6" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+				<div id="btn-close-modal" class="close-animatedModal6 close-popup-modal"> <i class="ion-close-round"></i> </div>
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>CNR Airport Hotel<br /> (Reception)</h2>
+                        <div class="h-50"></div>
+                        <p>My first acquaintance with the hospitality sector took place when I started working as a <strong>Receptionist</strong> at this newly opened hotel.</p>
+						<br/>
+                        <p>The works that I performed during the time I worked were</p>
+						<br/>
+                        <p><strong>Channel Tracking and Management, Related Overseas Calls</strong></p>
+                        <p>•&ensp;Carrying out the management of various reservation channels and performing the tracking of reservations made by Turkish and Foreign customers through these channels,</p>
+                        <p>•&ensp;In the face of any problems experienced against our hotel in these Reservation channels, providing the solution of the problem by calling or sending mail to the headquarter of these channels in Turkey or Abroad,</p>
+						<p>•&ensp;Keeping the daily customer capacity stable according to the number of rooms by instantly closing or opening active rooms from reservation channels according to the occupancy rate during the day,</p>
+						<p>•&ensp;In order to ensure this, if necessary, making Domestic and international calls to confirm whether the reservation holder will come or not...</p>
+						<br/>
+                        <p><strong>Cooperation and Customer Resources</strong></p>
+                        <p>•&ensp;By staying in cooperation with Airport Agencies, Taxi Drivers and Other Hotels in a way that will provide mutual benefits when necessary, increasing the resources that can bring customers.</p>
+                        <p>•&ensp;If our rooms are full for our surprise guests who come without reservation, in order for them not to be victims, if other hotels we have contracted have availability, to direct our guests to those hotels...</p>
+						<br/>
+                        <p><strong>Informing the Customer and Manager</strong></p>
+                        <p>•&ensp;Informing Turkish and foreign customers who want to receive information through various communication channels about anything,</p>
+                        <p>•&ensp;Following up the questions and reviews of Turkish and Foreign customers via Online Platforms and to respond to them quickly,</p>
+						<p>•&ensp;Performing many other tasks, such as creating daily reports of unusual situations and transmitting these reports to the relevant higher unit...</p>
+						<br/>
+                        <p><strong>Advertising and Social Media</strong></p>
+                        <p>•&ensp;A few days later after starting this newly opened hotel, I took photos of the hotel itself and its rooms and led it to be promoted with interesting visuals on Booking channels and attract customers.</p>
+                        <p>•&ensp;I have created advertising content through Graphic and Video Design applications by indicating the services offered by the Hotel  and published them on the hotel's social platforms such as Facebook, Youtube and Instagram and Booking sites.</p>
+						<p>•&ensp;I have recreated the materials that were prepared before, such as the hotel's "Logo, Business Card, Brochure", but no longer have their digital form, by making them a little better in a computer environment, as I thought it would be necessary to use them again.</p>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!--DEMO05-->
+    <div id="animatedModal5" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+				<div id="btn-close-modal" class="close-animatedModal5 close-popup-modal"> <i class="ion-close-round"></i> </div>
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Teleperformance Call Center<br /> (Customer Representative)</h2>
+                        <div class="h-50"></div>
+                        <p>I was working as <strong>Inbound and Outbound customer representative</strong> under <strong>TELEPERFORMANCE, which is an international call center</strong> for various institutional brands and for the customers of the <strong>BERSHKA brand belonging to INDITEX, a Spain-based textile company.</strong> And in this context, in line with the calls we receive from the customers, I was helping the customers on any subject such as their requests, problems, complaints by accessing the their data with two different CRM applications where the records of the customers are kept.</p>
+                        <p>Although rare, In addition to Turkish customers, I was also answering the calls of foreign customers in Turkey on English language because of they can't speak Turkish.</p>
+                        <p>After each call we received from each customer, I was also responsible for creating a report on the computer by explaining on English text about what we talked with the customer, then transferring it to the head office of INDITEX company in Spain and contacting the authorities there in writing or by calling when necessary.</p>
+                        <p>Apart from these, in the moments we did not receive any call, I was also responsible on answering the e-mails from the customers, which were written in Turkish or English.</p>
+						<p>I can summarize the definition of this work on this way that I have done, except for the other detailed parts.</p>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!--DEMO04-->
+    <div id="animatedModal4" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+				<div id="btn-close-modal" class="close-animatedModal4 close-popup-modal"> <i class="ion-close-round"></i> </div>
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Educational Volunteers Foundation of Turkey<br /> (Volunteer Instructor)</h2>
+                        <div class="h-50"></div>
+                        <p>When I was in my last year of university, I gave ENGLISH training to children at their own level, completely voluntarily (without any charge) under the title of "Post-School Education" at TEGV (Educational Volunteers Foundation of Turkey).</p>
+                        <p>In addition, I have also given training in the field of INFORMATION TECHNOLOGIES, another area where I show my proficiency, in cases where the volunteer teachers were partially insufficient on that field.</p>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!--DEMO02-->
+	<!-- FOTO EVREN BÖLÜMÜ (GEREKİRSE DİYE)
+    <div id="animatedModal3" class="popup-modal">
+        
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+				<div id="btn-close-modal" class="close-animatedModal3 close-popup-modal"> <i class="ion-close-round"></i> </div>
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>İsmet Matbaa<br /> (Grafik Tasarım)</h2>
+                        <div class="h-50"></div>
+                        <p>Lise stajımdı. Açık konuşmak gerekirse Lise'de yazılım okumama rağmen o zamanın şartlarında yazılım yönünde staj için iş bulma konusunda zorlukları göz önünde bulundurursak okuduğum lise programıyla pek uyuşmasa da Grafik Tasarım anlamında ve <strong>Adobe Illustrator</strong> deneyimi konusunda kazandırdığı şeyler olmuştu.</p>
+                        <p><strong>Farklı sektörlerde çalıştığım işyerlerinde, şayet ihtiyaç dahilinde üzerinden uzun zaman geçen bu deneyimlerimi hala daha en azından Mobil Fotoğrafçılık olarak kullanmaktayım. 2019 - 2020 yılları arasını kapsayan Otelcilik deneyimlerimi incelediğiniz taktirde Oteller adına Fotoğraf Çekimleri dahil, Reklam ve Tasarım alanlarındaki yaptığım işleri de göreceksinizdir.</strong></p>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+	-->
+
+    <!--DEMO02-->
+    <div id="animatedModal2" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+				<div id="btn-close-modal" class="close-animatedModal2 close-popup-modal"> <i class="ion-close-round"></i> </div>
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Ismet Printing Office<br /> (Graphic Design)</h2>
+                        <div class="h-50"></div>
+                        <p>It was my high school internship. Although I studied in a department on software in high school, because of the limited job opportunities in the software sector in my country at that time, I found this job, which concerns the Graphic Design sector, which has an impact on software sector as an auxiliary field. This job gave me a lot of experience in terms of introduction to "Graphic Design" applications including vector drawings and experience in <strong>"Adobe Illustrator"</strong> application.</p>
+                        <p><strong>In the workplaces where I work in different sectors, I still apply my these experiences at least as Mobile Photography if necessary even if it has passed for a long time. If you examine my Hotel Management experiences covering the years 2019 - 2020, you will see the works I have done in the fields of Advertising and Design, including Photo Shoots on behalf of Hotels.</strong></p>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!--DEMO01-->
+    <div id="animatedModal1" class="popup-modal">
+        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+        
+        <div class="clearfix"></div>
+        <div class="modal-content">
+            <div class="container">
+				<div id="btn-close-modal" class="close-animatedModal1 close-popup-modal"> <i class="ion-close-round"></i> </div>
+                <div class="portfolio-padding">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>Studyo Hayal<br /> (Grafik Tasarım ve Studyo Fotoğraçılığı)</h2>
+                        <div class="h-50"></div>
+                        <p>My advanced mastery of <strong>Photoshop</strong> was with this company I worked for. As the Position I was working in, all kinds of <strong>Photo Editing</strong> works were under my responsibility. Although I was only in charge of photo editing, I sometimes <strong>participated in Studio Photography shoots</strong>, specially went to product shoots to prepare catalogs and, when necessary, took the shots personally and <strong>prepared catalogs from product photos.</strong></p>
+                        <p><strong>In the workplaces where I work in different sectors, I still apply my these experiences at least as Mobile Photography if necessary even if it has passed for a long time. If you examine my Hotel Management experiences covering the years 2019 - 2020, you will see the works I have done in the fields of Advertising and Design, including Photo Shoots on behalf of Hotels.</strong></p>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!--  plugins  -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+
+    <!--  main script  -->
+    <script src="js/custom_en.js"></script>
+</body>
+
+</html>
